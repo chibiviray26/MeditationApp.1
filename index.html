@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css" class="css">
+    <title> Meditation App </title>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,700;1,500;1,700&family=Boogaloo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h2> 5 minute meditation </h2>
+    <div class="container">
+
+        <div class="circle"></div>
+        <p id="text"></p>
+        <div class="pointer-container">
+            <div class="pointer"></div>
+        </div>
+        <div class="gradient-circle"></div>
+    </div>
+    <div class="play-btn">
+        <audio id="myAudio">
+            <source src="Morning Devotional Prayer  Hearing Gods Voice  5Minute Meditation with God.mp3" type="audio/mpeg">
+        </audio>
+      
+        <p>Hi, how are you? listen and be blessed! </p>
+        <button class="btn btn-outline-success" onclick="playAudio()" type="button"> Start </button>
+        <button class="btn btn-outline-success" onclick="pauseAudio()" type="button"> Pause</button> 
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
